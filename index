@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>wedding planner </title>
+</head>
+
+<body>
+    <header class="head">
+        <h2>The Perfect Union <i class="fa-solid fa-heart"></i></h2> 
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#service">Services</a>
+            <a href="#vendors">Venues</a>
+            <a href="#venue">Venues</a>
+            <a href="#invite">E-invites</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div id="menu-bar" class="menu-bar">
+            <i class="fa-solid fa-bars"></i>
+            Menu
+        </div>
+    </header>
+    <!-----home section-->
+    <section id="home" class="home" home>
+        <form action="#">
+       <div class="seach-box">
+        <h1>Your wedding, your way. We'll take care of the rest.</h1>
+        <p>Find The Best Wedding Vendors With Thousands Of Trusted Reviews</p>
+        <select type="text" class="search-field">
+            <option disabled selected>Select Vendor type</option>
+            <option value="wedding venues">Wedding Venues</option>
+            <option value="Family makeup">Family Makeup</option>
+            <option value="Bridal Makeup">Bridal Makeup</option>
+            <option value="Groom Wear">Groom Wear</option>
+            <option value="Wedding Decoration">Wedding Decoration</option>
+        </select>
+
+        <select type="text" class="search-field">
+            <option disabled selected>City</option>
+            <option value="city">Mumbai</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Gujrat">Gujrat</option>
+            <option value="Goa">Goa</option>
+            <option value=" surat">surat</option>
+        </select>
+        <button class="btn">Search</button>
+       </div>
+    </form>
+    </section>
+
+
+    <div id="service"  class="service">
+        <div class="title">
+            <h1><span>S</span>ervices<img src="border.png" ></h1>
+        </div>
+        <div class="service-row">
+        <div class="service-col">
+            <i class="fa-solid fa-book-open"></i>
+            <h2>Invitation</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa reiciendis magni debitis cupiditate libero? Vitae tempore ipsum, architecto labore quas rerum! Magni at temporibus voluptatem modi assumenda quisquam sint ipsum.</p>
+        </div>
+        <div class="service-col">
+            <i class="fa-solid fa-camera"></i>
+            <h2>Photography & Video</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa reiciendis magni debitis cupiditate libero? Vitae tempore ipsum, architecto labore quas rerum! Magni at temporibus voluptatem modi assumenda quisquam sint ipsum.</p>
+        </div>
+        <div class="service-col">
+            <i class="fa-solid fa-brush"></i>
+            <h2>Beauty & Makeup</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa reiciendis magni debitis cupiditate libero? Vitae tempore ipsum, architecto labore quas rerum! Magni at temporibus voluptatem modi assumenda quisquam sint ipsum.</p>
+        </div>
+        <div class="service-col">
+            <i class="fa-solid fa-leaf"></i>
+            <h2>Wedding Flowers</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa reiciendis magni debitis cupiditate libero? Vitae tempore ipsum, architecto labore quas rerum! Magni at temporibus voluptatem modi assumenda quisquam sint ipsum.</p>
+        </div>
+        <div class="service-col">
+            <i class="fa-solid fa-cake-candles"></i>
+            <h2>Wedding Cake</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa reiciendis magni debitis cupiditate libero? Vitae tempore ipsum, architecto labore quas rerum! Magni at temporibus voluptatem modi assumenda quisquam sint ipsum.</p>
+        </div>
+        <div class="service-col">
+            <i class="fa-solid fa-music"></i>
+            <h2>Music Band</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa reiciendis magni debitis cupiditate libero? Vitae tempore ipsum, architecto labore quas rerum! Magni at temporibus voluptatem modi assumenda quisquam sint ipsum.</p>
+        </div>
+        <div class="service-col">
+            <i class="fa-solid fa-bowl-food"></i>
+            <h2>Catering</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa reiciendis magni debitis cupiditate libero? Vitae tempore ipsum, architecto labore quas rerum! Magni at temporibus voluptatem modi assumenda quisquam sint ipsum.</p>
+        </div>
+        <div class="service-col">
+            <i class="fa-solid fa-ring"></i>
+            <h2>Jewellery</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa reiciendis magni debitis cupiditate libero? Vitae tempore ipsum, architecto labore quas rerum! Magni at temporibus voluptatem modi assumenda quisquam sint ipsum.</p>
+        </div>
+    </div>
+</div>
+
+<!--vendor-->
+<div id="vendors" class="vendor">
+    <div class="title">
+        <h1><span>F</span>eatured<span> V</span>endor<img src="border.png" ></h1>
+        <div class="vendor-list">
+            <div class="vendor-row">
+                <div class="rate">4.5<i class="fa-solid fa-star"></i></div>
+            
+            <img src="im1.jpg">
+            <h2>Beauty Tales By Komal Rai</h2>
+            <p>Bridal Makeup</p>
+            <h3>Rs.20,000 onwards</h3>
+        </div>
+        
+        <div class="vendor-list">
+            <div class="vendor-row">
+                <div class="rate">4.2<i class="fa-solid fa-star"></i></div>
+            
+            <img src="im2.jpg">
+            <h2>Flinters Management</h2>
+            <p>Wedding Planner</p>
+            <h3>Rs.2.5-4 Lakh</h3>
+        </div>
+        </div>
+        <div class="vendor-list">
+            <div class="vendor-row">
+                <div class="rate">5.0<i class="fa-solid fa-star"></i></div>
+            
+            <img src="im3.jpg">
+            <h2>Wedding Mela</h2>
+            <p>Wedding Decorators</p>
+            <h3>Rs.80,000-30,0000</h3>
+        </div>
+    </div>
+        <div class="vendor-list">
+            <div class="vendor-row">
+                <div class="rate">4.3<i class="fa-solid fa-star"></i></div>
+            
+            <img src="im4.jpg">
+            <h2>SeventhHeaven Wedding Company</h2>
+            <p>Wedding Decorators</p>
+            <h3>Rs.80,000Lakh-1Crore</h3>
+        </div>
+    </div>
+        <div class="vendor-list">
+            <div class="vendor-row">
+                <div class="rate">4.5<i class="fa-solid fa-star"></i></div>
+            
+            <img src="im5.jpg">
+            <h2>Haldi Ceremony</h2>
+            <p>Theme Decorator</p>
+            <h3>Rs.10000 onwards</h3>
+        </div>
+    </div>
+        <div class="vendor-list">
+            <div class="vendor-row">
+                <div class="rate">4.0<i class="fa-solid fa-star"></i></div>
+            
+            <img src="im6.jpg">
+            <h2>Shaadi ceremony</h2>
+            <p>Theme Manager</p>
+            <h3>Rs.1.8 Lakh</h3>
+        </div>
+    </div>
+</div>
+
+
+<div id="venue" class="venue">
+    <div class="title">
+        <h1><span>V</span>enues<img src="border.png" ></h1>
+        <div class="venue-list">
+            <div class="venue-box">
+                <img src="venue-1.jpg" alt="img">
+                <div class="venue-info">
+                    <h2>Goa</h2>
+                       <p> Azaya Beach Resort, Goa</p>
+                       <button class="btn">More Info</button>
+                </div>
+            </div>
+
+            <div class="venue-box">
+                <img src="venue-2.jpg" alt="img">
+                <div class="venue-info">
+                    <h2>Jaipur</h2>
+                       <p>  The Raj Palace</p>
+                       <button class="btn">More Info</button>
+                </div>
+            </div>
+
+            <div class="venue-box">
+                <img src="venue-3.jpg" alt="img">
+                <div class="venue-info">
+                    <h2>Udaipur
+                        </h2>
+                       <p> Taj Aravalli Resort And Spa</p>
+                       <button class="btn">More Info</button>
+                </div>
+            </div>
+
+            <div class="venue-box">
+                <img src="venue-4.jpg" alt="img">
+                <div class="venue-info">
+                    <h2>Thailand
+                        </h2>
+                       <p> Prince Palace Hotel</p>
+                       <button class="btn">More Info</button>
+                </div>
+            </div>
+
+            <div class="venue-box">
+                <img src="venue-5.jpg" alt="img">
+                <div class="venue-info">
+                    <h2>Mumbai</h2>
+                       <p> Grand Banquet, Chembu</p>
+                       <button class="btn">More Info</button>
+                </div>
+            </div>
+
+            <div class="venue-box">
+                <img src="venue-6.jpg" alt="img">
+                <div class="venue-info">
+                    <h2>Daman
+                        </h2>
+                       <p> The Deltin,Daman</p>
+                       <button class="btn">More Info</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---card design-->
+<div id="invite" class="invite">
+    <div class="title">
+        <h1><span>C</span>ard <span>D</span>esign<img src="border.png" ></h1>
+        <p>Choose The Best Card Design.</p>
+    </div>
+    <div class="invitation-row">
+        <div class="invitation-box">
+            <img src="card-1.jpg" alt="">
+        </div>
+        <div class="invitation-box">
+            <img src="card-2.jpg" alt="">
+        </div>
+        <div class="invitation-box">
+            <img src="card-3.jpg" alt="">
+        </div>
+        <div class="invitation-box">
+            <img src="card-4.jpg" alt="">
+        </div>
+        <div class="invitation-box">
+            <img src="card-5.jpg" alt="">
+        </div>
+        <div class="invitation-box">
+            <img src="card-6.jpg" alt="">
+        </div>
+        <div class="invitation-box">
+            <img src="card-7.jpg" alt="">
+        </div>
+        <div class="invitation-box">
+            <img src="card-8.jpg" alt="">
+        </div>
+        <div class="invitation-box">
+            <img src="card-9.jpg" alt="">
+        </div>
+        <div class="invitation-box">
+            <img src="card-10.jpg" alt="">
+        </div>
+        <div class="invitation-box">
+            <img src="card-11.jpg" alt="">
+        </div>
+        <div class="invitation-box">
+            <img src="card-12.jpg" alt="">
+        </div>
+    
+    </div>
+</div>
+<footer>
+    <div id="contact" class="footer1">
+        <div class="footer-a">
+            <h2>The Perfect Union - Your Personal Wedding Planner <i class="fa-solid fa-heart"></i></h2>
+            <p>"Plan Your Wedding With Us!! The Perfect Union Is An Indian Wedding Planning Website"</p>
+            <div >
+                <button class="btn">Register As A Vendor
+                </button>
+            </div>
+            <div class="social1">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-pinterest"></i>
+            </div>
+        </div>
+
+        <div class="footer-a">
+            <h2>Our Location</h2>
+            <div class="social">
+                
+                <a href="#"><i class="fa-solid fa-chevron-right"></i>Mumbai</a>
+                <a href="#"><i class="fa-solid fa-chevron-right"></i>Delhi</a>
+                <a href="#"><i class="fa-solid fa-chevron-right"></i>Gujrat</a>
+                <a href="#"><i class="fa-solid fa-chevron-right"></i>Goa</a>
+                <a href="#"><i class="fa-solid fa-chevron-right"></i>surat</a>
+            </div>
+        </div>
+
+        <div class="footer-a">
+            <h2>Newsletter</h2>
+            <p>Subscribe For Latest Updates</p>
+            <input type="text" placeholder="Enter your Email">
+            <button class="btn">Subscribe</button>
+            
+        </div>
+    </div>
+
+</footer>
+<div class="content">
+    Copyright ©2024 All Rights Reserved | Knowledge Place KP.
+</div>
+</body>
+
+</html>
